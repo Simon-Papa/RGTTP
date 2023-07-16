@@ -19,7 +19,7 @@ i: bool = 2 > 1
 j: int = 30 % 7
 k: float = 30/7
 l: float = b + 3    # noqa: E741
-                    # I assume 'b' is referring to var 'b' above in this case
+#                     I assume 'b' is referring to var 'b' above in this case
 m: int = 128 >> 1
 n: str = bin(128)
 o: list = [m, l, k, n]
