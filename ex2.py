@@ -24,7 +24,7 @@ print(list_shopping_total_cost)
 # 3. I have decided that we need 5 cartons of milk, can you recalculate
 #    it and print it out again?
 
-list_shopping_total_cost = 2.99 + (1.79*5) + 3.49 + 6.99 + 2.49
+list_shopping_total_cost = 2.99 + (5*1.79) + 3.49 + 6.99 + 2.49
 print(list_shopping_total_cost)
 
 # 4. Print out every item of your shopping list on a new line.
