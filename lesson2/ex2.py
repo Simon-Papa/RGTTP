@@ -6,15 +6,15 @@
 #    to take the argument passed into format and print a
 #    sentence of your choice.
 
-# INSERT YOUR CODE HERE
+print("I am really enjoying the {} IDE experience".format("VS Code"))
 
 # 2. Use string formatting with positional arguments and
 #    print the sentence: "Don't Panic!"
 
-# INSERT YOUR CODE HERE
+print("{1} {0}".format("Panic", "Don't"))
 
 # 3. Use string formatting with named arguments and
 #    print the sentence: "[name] is really [what]!" and
 #    fill in the brackets with your name and "great".
 
-# INSERT YOUR CODE HERE
+print("{name} is really {adjective}".format(name="Simon", adjective="great"))
