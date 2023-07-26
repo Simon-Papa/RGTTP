@@ -10,8 +10,13 @@
     // Python Ruler
     "editor.rulers": [
         {"column": 72, "color": "#333333"},
-        {"column": 79, "color": "#ff0000"},
+        {"column": 79, "color": "#ff0000"}
     ],
+    
+    // Indentation
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
 
     // Mypy Type Checker
     // pip install mypy
@@ -25,5 +30,5 @@
 
     "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1
 }
