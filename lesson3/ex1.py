@@ -96,4 +96,3 @@ print("Lesson 3, Ex1.9\n"
       "What is the position of Carrot in the list?\n")
 
 print("Carrot is listed at positions", pos_carrot, "&", pos_carrot_a, "\n")
-
