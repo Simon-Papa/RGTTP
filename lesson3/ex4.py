@@ -21,4 +21,31 @@
 #    - True
 #    - False
 
-# INSERT CODE HERE
+
+class ShoppingList(object):
+    def __init__(self):
+        self.shopping_list = ['apples', 'milk', 'bread', 'carrot', 'pasta']
+
+    def __str__(self) -> str:
+        return "My shopping list: {}".format(self.shopping_list)
+
+    def __repr__(self) -> str:
+        return "My shopping list: {}".format(self.shopping_list)
+
+    def in_list(self, item: str) -> str:
+        if item in self.shopping_list:
+            return f"'{item}' is in the shopping list."
+        else:
+            return f"'{item}' not in the shopping list."
+
+    def __eq__(self, other) -> bool:
+        return self.shopping_list == other.shopping_list
+
+
+monday: ShoppingList = ShoppingList()
+print(monday.in_list('apples'))
+print(ShoppingList.in_list(monday, 'apples'))
+
+tuesday: ShoppingList = ShoppingList()
+
+print(monday == tuesday)
