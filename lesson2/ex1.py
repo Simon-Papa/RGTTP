@@ -17,8 +17,8 @@ pseudonym: dict = {"RHSOP10": "Newton",
                    "RHOSP16.x": "Train",
                    "RHOSP17": "Wallaby"}
 
-print("Here is a list of Red Hat Openstack versions and the Upstream projects \
-that they were based on:\n")
+print("Here is a list of Red Hat Openstack versions and the Upstream projects"
+      "that they were based on:\n")
 
 for x in pseudonym:
     print("{:<10}".format(x), "{:>15}".format(pseudonym[x]))
