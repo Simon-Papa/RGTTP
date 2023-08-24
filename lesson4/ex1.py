@@ -56,11 +56,8 @@ print("\n")
 print("Lesson 4, Ex 1.5\n"
       "Add 10 aaples and remove 2 bananas\n")
 
-apple_number: int = fruits.get("apple")
-banana_number: int = fruits.get("banana")
-
-fruits["apple"] = apple_number + 10
-fruits["banana"] = banana_number - 2
+fruits["apple"] += 10
+fruits["banana"] -= 2
 
 for keys, values in fruits.items():
     print("{:<8}".format(keys), ":", "{:>3}".format(values))
@@ -124,4 +121,9 @@ print("Lesson 4, Ex 1.9\n"
       "Check if 'banana' is in the 'fruits' dictionary\n")
 
 if fruits.get("banana") is None:
+    print("'banana' is not in the Dictionary")
+
+    # Alternate Method:
+
+if "banana" not in fruits:
     print("'banana' is not in the Dictionary")
