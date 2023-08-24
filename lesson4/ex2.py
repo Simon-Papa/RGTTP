@@ -62,12 +62,9 @@ print("Lesson 4, Ex 2.5\n"
       "Access the value of 'mandarin' using .get. If 'mandarin isn't in the\n"
       "list, return 0\n")
 
-if fruits.get("mandarin") is None:
-    print(0)
-else:
-    print(fruits.get("mandrin"))
-
+print(fruits.get("mandrin", 0))
 print("\n")
+
 
 # 6. Remove all items from the dictionary
 
