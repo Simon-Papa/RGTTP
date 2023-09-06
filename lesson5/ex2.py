@@ -4,22 +4,45 @@
 
 # 1. Write a while true loop to print "Forever" forever
 
-# INSERT YOUR CODE HERE
+# while True:
+#     print("Forever")
 
 # 2. Write a while loop to print numbers from 0 to 42
 
-# INSERT YOUR CODE HERE
+x: int = 0
+while (x <= 42):
+    print(x)
+    x += 1
 
 # 3. Write a while true loop to print numbers from 0 to 42
 
-# INSERT YOUR CODE HERE
+y: int = 0
+while True:
+    if (y > 42):
+        break
+    print(y)
+    y += 1
 
 # 4. Write a while true loop to print numbers from 0 to 45, and instead
 #    of 42, print "I am 42!" break at number 45.
 
-# INSERT YOUR CODE HERE
+z: int = 0
+while True:
+    if (z > 45):
+        break
+    elif (z == 42):
+        print("I am 42!")
+        z += 1
+        continue
+    print(z)
+    z += 1
 
 # 5. Write a while-else loop to count to 2, and after that print
 #    "It's my turn now!" using else statement.
 
-# INSERT YOUR CODE HERE
+n: int = 0
+while (n <= 2):
+    print(n)
+    n += 1
+else:
+    print("It's my turn now!")
